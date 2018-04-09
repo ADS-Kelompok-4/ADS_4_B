@@ -19,3 +19,36 @@ Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-b
 -	Komisioner: dapat melakukan pencarian produk, dapat mengirim chat ke artis, melakukan pembayaran, melihat WIP dan menambahkan komentar di sana
 -	Admin: menerima bukti pembayaran dari komisioner untuk proses verifikasi, melepaskan pembayaran ke artis ketika pembuatan karya telah selesai, memantau aktivitas pengguna, memberikan peringatan kepada artis yang tidak mengunggah WIP dan tidak menyelesaikan pekerjaannya.
 
+Kebutuhan Fungsional :
+
+	Perangkat lunak dapat menampilkan form Login  
+	Perangkat lunak dapat menerima masukan username dan password pembeli
+	Perangkat lunak dapat menampilkan form Register  
+	Perangkat lunak dapat menyimpan data user
+	Perangkat lunak dapat menampilkan menu profile pengguna  
+	Perangkat lunak dapat menampilkan menu keuangan  
+	Perangkat lunak dapat menampilkan menu bantuan
+	Perangkat lunak dapat menampilkan menu setting  
+	Perangkat lunak dapat menampilkan menu about  
+	Perangkat lunak dapat menyediakan mode pencarian terhadap produk, sesuaidengan input dari kosumen
+	Perangkat lunak dapat memberikan informasi jenis kategori crafting 
+	Perangkat lunak dapat menjalakan fitur chat antara konsumen ke artis atau sebaliknya
+	Perangakt lunak dapat menampilkan form request dari user konsumen
+	Perangakt lunak dapat menerima dan menyetujui request
+	Perangakt lunak dapat menyimpanan record request users
+	Perangakt lunak dapat dapat menampilkan dan menjalakan menu Work in progress
+	Perangkat lunak dapat menampilkan unggahan file dari user(artis) pada menu Work in progress
+	Perangakt lunak dapat menerima inputan dari user(artis) pada menu Work in progress
+	Perangakt lunak dapat mencatat inputan dari user(artis) pada menu Work in progress
+	Perangakt lunak dapat ……
+
+Kebutuhan Non-Fungsional
+
+	Sistem harus terkoneksi dengan internet
+	Sistem harus dapat diakses menggunakan perangkat mobile
+	System dapat dijalankansi seluruh web browser
+	System menggunakan tampilan web responsive
+	Sistem harus tersedia 24 jam
+	Memiliki tampilan yang sederhana dan mudah untuk difahami
+	Pengamanan system menggunakan fitur TLS dan SSL
+	System dapat menjaga privasi informasi user (artis dan konsumen)
