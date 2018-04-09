@@ -6,3 +6,9 @@ Pembuatan aplikasi sistem informasi Commision & Craft ini ditujukan untuk menyed
 1.2	Lingkup Masalah
 Commision & Craft adalah sebuah aplikasi berbasis web yang menyediakan media bagi artis untuk membuka pemesanan dari pada komisioner, proses pengerjaan pesanan baru dikerjakan setelah pembayaran telah disetor oleh komisioner kepada admin. Selama proses pengerjaan, artis harus selalu mengunggah progress yang disebut dengan WIP (Work In Progress) agar dapat terus dipantau baik oleh admin maupun komisioner. Setelah selesai, barulah dana dikirim ke artis oleh admin.
 Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-beda seperti pengelola dana, pengelola data, pemantauan aktivitas, serta costumer service untuk mendengarkan keluhan serta saran. 
+
+2.2	Karakteristik Pengguna
+-	Artis/penulis/pengrajin: dapat menambahkan produk, mengunggah portofolio, mengunggah WIP, membalas chat, dan menarik penghasilan pada transaksi-transaksi yang selesai dilakukan
+-	Komisioner: dapat melakukan pencarian produk, dapat mengirim chat ke artis, melakukan pembayaran, melihat WIP dan menambahkan komentar di sana
+-	Admin: menerima bukti pembayaran dari komisioner untuk proses verifikasi, melepaskan pembayaran ke artis ketika pembuatan karya telah selesai, memantau aktivitas pengguna, memberikan peringatan kepada artis yang tidak mengunggah WIP dan tidak menyelesaikan pekerjaannya.
+
