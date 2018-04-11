@@ -1,7 +1,7 @@
 Nama Kelompok 4:
 1. Hidayatul Ma'rifah       (nim)
-2. Jordan Abdul Aziz        (nim)
-3. Moch. Yasir Alfarizi     (nim)
+2. Jordan Abdul Aziz        (150535604444)
+3. Moch. Yasir Alfarizi     (150535602250)
 
 
 
@@ -40,7 +40,7 @@ Kebutuhan Fungsional :
 	Perangkat lunak dapat menampilkan unggahan file dari user(artis) pada menu Work in progress
 	Perangakt lunak dapat menerima inputan dari user(artis) pada menu Work in progress
 	Perangakt lunak dapat mencatat inputan dari user(artis) pada menu Work in progress
-	Perangakt lunak dapat ……
+	Perangakt lunak dapat subuah menu untuk menggambarkan sketsa dari barang yang akan di pesan
 
 Kebutuhan Non-Fungsional
 
@@ -52,3 +52,4 @@ Kebutuhan Non-Fungsional
 	Memiliki tampilan yang sederhana dan mudah untuk difahami
 	Pengamanan system menggunakan fitur TLS dan SSL
 	System dapat menjaga privasi informasi user (artis dan konsumen)
+ Proses transaksi terjamin dengan keamanan yang stabil dan baik
