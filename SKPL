@@ -19,6 +19,13 @@ Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-b
 -	Komisioner: dapat melakukan pencarian produk, dapat mengirim chat ke artis, melakukan pembayaran, melihat WIP dan menambahkan komentar di sana
 -	Admin: menerima bukti pembayaran dari komisioner untuk proses verifikasi, melepaskan pembayaran ke artis ketika pembuatan karya telah selesai, memantau aktivitas pengguna, memberikan peringatan kepada artis yang tidak mengunggah WIP dan tidak menyelesaikan pekerjaannya.
 
+2.3 Batasan
+dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
+- untuk aktifitas request item di website ini pengguna harus melakukan registrasi terlebih dahulu 
+- penyediaan form work in progress untuk update item yang telah di pesan 
+- pembayaran hanya dapat dilakukan setelah item yang di pesan telah selesai dan dikonfirmasi oleh artist
+- untuk pengambilan komisi artis harus melakukan konfirmasi item telah selesai di kerjakan ke admin 
+
 Kebutuhan Fungsional :
 
 	Perangkat lunak dapat menampilkan form Login  
@@ -53,3 +60,5 @@ Kebutuhan Non-Fungsional
 	Pengamanan system menggunakan fitur TLS dan SSL
 	System dapat menjaga privasi informasi user (artis dan konsumen)
  Proses transaksi terjamin dengan keamanan yang stabil dan baik
+
+2.3 
