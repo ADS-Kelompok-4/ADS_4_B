@@ -26,6 +26,36 @@ dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasa
 - pembayaran hanya dapat dilakukan setelah item yang di pesan telah selesai dan dikonfirmasi oleh artist
 - untuk pengambilan komisi artis harus melakukan konfirmasi item telah selesai di kerjakan ke admin 
 
+2.4 Lingkungan Operasi
+aplikasi ini dapat berjalan pada smartphone dan tablet dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+- Processor Core i3 generation 6th
+- Fast Ethernet atau Gigabit Ethernet
+- 1 TB Hard Disk utama
+- 500 GB Hard Disk backup
+- GPU 1GB
+Software yang terinstal dalam komputer :
+- Operasi sistem Debian atau Ubuntu
+- Apache 
+- Mail server
+- MYSQL server 
+
+Client :
+minimal spesifikasi hardware smartphone dan tablet sebagai berikut :
+- Operasi sistem Android
+- 1 GB RAM
+- etc
+
+3.1 Kebutuhan Antarmuka Eksternal
+fitur antarmuka yang dibutuhkan pada perangkat lunak commision craft sebagai berikut :
+
+3.1.1 Antarmuka Pemakai
+user interface yang digunakan untuk perangkat lunak commision craft :
+- tampilan awal login
+- form sign in
+- tampilan beranda
+- 
 Kebutuhan Fungsional :
 
 	Perangkat lunak dapat menampilkan form Login  
@@ -62,3 +92,4 @@ Kebutuhan Non-Fungsional
  Proses transaksi terjamin dengan keamanan yang stabil dan baik
 
 2.3 
+
