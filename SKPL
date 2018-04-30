@@ -53,9 +53,31 @@ fitur antarmuka yang dibutuhkan pada perangkat lunak commision craft sebagai ber
 3.1.1 Antarmuka Pemakai
 user interface yang digunakan untuk perangkat lunak commision craft :
 - tampilan awal login
-- form sign in
+- form sign up
 - tampilan beranda
-- 
+- tampilan daftar produk
+- tampilan produk tunggal
+-	pengaturan
+-	profil pengguna
+-	halaman produk (terdiri dari harga, keterangan, tipe-tipe yang tersedia, serta sampel berupa portofolio milik artis/penulis/pengrajin yang membuka komisi), 
+-	halaman WIP (work  in progress) yang harus diisi oleh artis agar komisioner dapat memantau dan mengomentari ketidakcocokan pada karya yang sedang diproses sehingga artis bisa memperbaikinya
+-	halaman transaksi
+-	log transaksi
+-	halaman chat
+
+3.1.2 Antarmuka Perangkat keras
+Arsitektur pembangun Commision and Craft
+- Server
+- Database werehouse
+
+3.1.3 Antarmuka Perangkat Lunak 
+Perangkat lunak yang digunakan untuk menyokong pembangunan Commision and Craft
+- Microsoft Windows 10
+- MySQL server
+- Adobe Ilustrator
+
+3.1.4 Antarmuka Komunikasi 
+
 Kebutuhan Fungsional :
 
 	Perangkat lunak dapat menampilkan form Login  
@@ -90,6 +112,4 @@ Kebutuhan Non-Fungsional
 	Pengamanan system menggunakan fitur TLS dan SSL
 	System dapat menjaga privasi informasi user (artis dan konsumen)
  Proses transaksi terjamin dengan keamanan yang stabil dan baik
-
-2.3 
 
