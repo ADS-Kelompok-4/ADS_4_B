@@ -15,9 +15,22 @@ Commision & Craft adalah sebuah aplikasi berbasis web yang menyediakan media bag
 Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-beda seperti pengelola dana, pengelola data, pemantauan aktivitas, serta costumer service untuk mendengarkan keluhan serta saran. 
 
 2.2	Karakteristik Pengguna
--	Artis/penulis/pengrajin: dapat menambahkan produk, mengunggah portofolio, mengunggah WIP, membalas chat, dan menarik penghasilan pada transaksi-transaksi yang selesai dilakukan
--	Komisioner: dapat melakukan pencarian produk, dapat mengirim chat ke artis, melakukan pembayaran, melihat WIP dan menambahkan komentar di sana
--	Admin: menerima bukti pembayaran dari komisioner untuk proses verifikasi, melepaskan pembayaran ke artis ketika pembuatan karya telah selesai, memantau aktivitas pengguna, memberikan peringatan kepada artis yang tidak mengunggah WIP dan tidak menyelesaikan pekerjaannya.
+-------------------------------------------------------------------------------------------
+| Pengguna                   | Peran                                                      |
+-------------------------------------------------------------------------------------------
+| Artis/penulis/pengrajin    | menambahkan produk, mengunggah portofolio, mengunggah WIP, |
+|                            | membalas chat, dan menarik penghasilan pada transaksi-     |
+|                            | transaksi yang selesai dilakukan                           |
+| Komisioner/Klien           | melakukan pencarian produk, dapat mengirim chat ke artis,  |
+|                            | melakukan pembayaran, melihat WIP dan menambahkan komentar |
+|                            | di sana                                                    |
+| Admin                      | menerima bukti pembayaran dari komisioner untuk proses     |
+|                            | verifikasi, melepaskan pembayaran ke artis ketika pembuatan|
+|                            | karya telah selesai, memantau aktivitas pengguna,          |
+|                            | memberikan peringatan kepada artis yang tidak mengunggah   |
+|                            | WIP dan tidak menyelesaikan pekerjaannya.                  |
+-------------------------------------------------------------------------------------------
+  
 
 2.3 Batasan
 dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
