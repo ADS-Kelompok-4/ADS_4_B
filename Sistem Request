@@ -1,0 +1,26 @@
+Tugas 1 (system request)
+
+------------------------------------------------------------------------------------------------------------------------------------------
+- Nama Project		          : Commission & craft
+------------------------------------------------------------------------------------------------------------------------------------------
+- Project Sponsor	          : UMKM
+------------------------------------------------------------------------------------------------------------------------------------------
+- Business Needs	          : - Memberi wadah dan tempat untuk para penyedia dan pelayanan jasa, agar lebih tersalurkan jasa yang        
+                                dibuatnya
+                            	- Memberi fasilitas untuk penyedia mengembangkan usaha mereka
+------------------------------------------------------------------------------------------------------------------------------------------
+- Business Requirements     : - Komisioner harus melakukan pembayaran dahulu, baru kemudian proses crafting bisa dimulai.
+                              - Pembayaran ditujukan ke rekening resmi Commision & Craft dan ditahan sampai proses crafting selesai dan 
+                                komisioner mengonfirmasi terima produk, untuk mencegah terjadinya sudah-dibayar-lalu-kabur, sehingga 
+                                komisioner tidak perlu takut ditipu artis.
+                              - Jika artis tidak mengerjakan dan tidak mengunggah WIP maka artis akan diberi peringatan, jika tetap tidak 
+                                 ada tindakan maka uang akan dikembalikan ke komisioner 
+                              - Pengiriman hasil karya bisa secara offline dan online, yang bisa dikirim secara online adalah proyek-
+                                proyek digital seperti digital art, desain digital, dan tulisan.
+------------------------------------------------------------------------------------------------------------------------------------------
+- Business Value            : - Meningkatkan rasa percaya diri mahasiswa dalam mendaftar pekerjaan
+                              - Mahasiswa bekerja sesuai set skill yang telah dipelajari dalam bangku kuliah
+                              - Memberi bahan pertimbangan mahasiswa dalam memilih bidang kerja 
+------------------------------------------------------------------------------------------------------------------------------------------
+- Special issues            : - System dibangun berdasarkan aplikasi untuk smartphone agar lebih portable digunakan
+------------------------------------------------------------------------------------------------------------------------------------------
