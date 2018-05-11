@@ -8,11 +8,30 @@ Nama Kelompok 4:
 1. Pendahuluan
 
 1.1	Tujuan Penulisan Dokumen
-Pembuatan aplikasi sistem informasi Commision & Craft ini ditujukan untuk menyediakan sebuah media bagi para artis (digital maupun tradisional), penulis, .pengrajin, dan komisioner (orang yang memesan hasil karya dan bersedia membayarnya) untuk melakukan transaksi dengan aman dan saling terhubung selama proses pembuatannya..
+  Dokumen ini ditulis untuk mengenalkan  aplikasi sistem informasi Commision & Craft yang ditujukan untuk menyediakan sebuah media bagi    para artis (digital maupun tradisional), penulis, pengrajin, dan komisioner (orang yang memesan hasil karya dan bersedia membayarnya)    untuk melakukan transaksi dengan aman dan saling terhubung selama proses pembuatannya.  Penjabaran spesifikasi perangkat lunak          meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak.
 
 1.2	Lingkup Masalah
-Commision & Craft adalah sebuah aplikasi berbasis web yang menyediakan media bagi artis untuk membuka pemesanan dari pada komisioner, proses pengerjaan pesanan baru dikerjakan setelah pembayaran telah disetor oleh komisioner kepada admin. Selama proses pengerjaan, artis harus selalu mengunggah progress yang disebut dengan WIP (Work In Progress) agar dapat terus dipantau baik oleh admin maupun komisioner. Setelah selesai, barulah dana dikirim ke artis oleh admin.
-Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-beda seperti pengelola dana, pengelola data, pemantauan aktivitas, serta costumer service untuk mendengarkan keluhan serta saran. 
+  Commission & Craft menyediakan media bagi artis untuk membuka pemesanan dari pada komisioner, proses pengerjaan pesanan baru dikerjakan setelah pembayaran telah disetor oleh komisioner kepada admin. Selama proses pengerjaan, artis harus selalu mengunggah progress yang disebut dengan WIP (Work In Progress) agar dapat terus dipantau baik oleh admin maupun komisioner. Setelah selesai, barulah dana dikirim ke artis oleh admin. Sistem ini dikelola oleh beberapa admin yang bertugas pada bagian yang berbeda-beda seperti pengelola dana, pengelola data, pemantauan aktivitas, serta costumer service untuk mendengarkan keluhan serta saran. 
+
+1.3 Definisi, Istilah dan Singkatan
+	Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
+  
+	                            Tabel 1 Definisi, istilah dan singkatan
+	-------------------------------------------------------------------------------------------------------
+	Definisis, Istilah dan Singkatan		|	Penjelasan
+	-------------------------------------------------------------------------------------------------------
+	DFD				                         	|	Data Flow Diagram yang menggambarkan alir data
+	ERD					                      	|	Entity Relationship Diagram yang menggambarkan entitas suatu objek beserta relasinya
+	Interface		                      	|	Antarmuka antara perangkat lunak dan pengguna
+	Data Store		                      |	Tempat penyimpanan data
+	API					                      	|	Application Programming Interface
+  WIP                                 | Work In Progress, hasil karya yang masih dalam proses pembuatan
+	------------------------------------------------------------------------------------------------------
+  
+2. 	Deskripsi Umum Perangkat Lunak
+
+2.1 	Deskripsi Umum Sistem
+Commision & Craft adalah sebuah aplikasi berbasis web yang menyediakan media bagi artis untuk membuka pemesanan dari pada komisioner, proses pengerjaan pesanan baru dikerjakan setelah pembayaran telah disetor oleh komisioner kepada admin. Pengguna dapat mendaftar dan login pada satu akun yang sama baik untuk melakukan open commission maupun untuk memesan hasil karya orang lain.
 
 2.2	Karakteristik Pengguna
 -------------------------------------------------------------------------------------------
