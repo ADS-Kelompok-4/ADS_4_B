@@ -17,15 +17,15 @@ Nama Kelompok 4:
 	Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
   
 	                            Tabel 1 Definisi, istilah dan singkatan
-	-------------------------------------------------------------------------------------------------------
-	Definisis, Istilah dan Singkatan		|	Penjelasan
-	-------------------------------------------------------------------------------------------------------
-	DFD				                         	|	Data Flow Diagram yang menggambarkan alir data
-	ERD					                      	|	Entity Relationship Diagram yang menggambarkan entitas suatu objek beserta relasinya
-	Interface		                      	|	Antarmuka antara perangkat lunak dan pengguna
-	Data Store		                      |	Tempat penyimpanan data
-	API					                      	|	Application Programming Interface
-  WIP                                 | Work In Progress, hasil karya yang masih dalam proses pembuatan
+-------------------------------------------------------------------------------------------------------
+Definisis, Istilah dan Singkatan		|Penjelasan
+-------------------------------------------------------------------------------------------------------
+DFD			                 	|Data Flow Diagram yang menggambarkan alir data
+ERD				        	|Entity Relationship Diagram yang menggambarkan entitas suatu objek beserta relasinya
+Interface			                |Antarmuka antara perangkat lunak dan pengguna
+Data Store		    			|Tempat penyimpanan data
+API			                     	|Application Programming Interface
+ WIP                               	 	|Work In Progress, hasil karya yang masih dalam proses pembuatan
 	------------------------------------------------------------------------------------------------------
   
 2. 	Deskripsi Umum Perangkat Lunak
@@ -110,38 +110,43 @@ Perangkat lunak yang digunakan untuk menyokong pembangunan Commision and Craft
 
 3.1.4 Antarmuka Komunikasi 
 
-Kebutuhan Fungsional :
+3.2 Ringkasan Kebutuhan
+	Aplikasi ini  dalam pembangunannya didasari oleh dua jenis kenutuhan yaitu kebutuhan fungsional dan kebutuhan non fungsional. 
+	Kebutuhan ini mencerminkan segala hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
+	karena pada pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan aplikasi
+	
+3.2.1 Kebutuhan Fungsional :
 
-	Perangkat lunak dapat menampilkan form Login  
-	Perangkat lunak dapat menerima masukan username dan password pembeli
-	Perangkat lunak dapat menampilkan form Register  
-	Perangkat lunak dapat menyimpan data user
-	Perangkat lunak dapat menampilkan menu profile pengguna  
-	Perangkat lunak dapat menampilkan menu keuangan  
-	Perangkat lunak dapat menampilkan menu bantuan
-	Perangkat lunak dapat menampilkan menu setting  
-	Perangkat lunak dapat menampilkan menu about  
-	Perangkat lunak dapat menyediakan mode pencarian terhadap produk, sesuaidengan input dari kosumen
-	Perangkat lunak dapat memberikan informasi jenis kategori crafting 
-	Perangkat lunak dapat menjalakan fitur chat antara konsumen ke artis atau sebaliknya
-	Perangakt lunak dapat menampilkan form request dari user konsumen
-	Perangakt lunak dapat menerima dan menyetujui request
-	Perangakt lunak dapat menyimpanan record request users
-	Perangakt lunak dapat dapat menampilkan dan menjalakan menu Work in progress
-	Perangkat lunak dapat menampilkan unggahan file dari user(artis) pada menu Work in progress
-	Perangakt lunak dapat menerima inputan dari user(artis) pada menu Work in progress
-	Perangakt lunak dapat mencatat inputan dari user(artis) pada menu Work in progress
-	Perangakt lunak dapat subuah menu untuk menggambarkan sketsa dari barang yang akan di pesan
+Perangkat lunak dapat menampilkan form Login  
+Perangkat lunak dapat menerima masukan username dan password pembeli
+Perangkat lunak dapat menampilkan form Register  
+Perangkat lunak dapat menyimpan data user
+Perangkat lunak dapat menampilkan menu profile pengguna  
+Perangkat lunak dapat menampilkan menu keuangan  
+Perangkat lunak dapat menampilkan menu bantuan
+Perangkat lunak dapat menampilkan menu setting  
+Perangkat lunak dapat menampilkan menu about  
+Perangkat lunak dapat menyediakan mode pencarian terhadap produk, sesuaidengan input dari kosumen
+Perangkat lunak dapat memberikan informasi jenis kategori crafting 
+Perangkat lunak dapat menjalakan fitur chat antara konsumen ke artis atau sebaliknya
+Perangakat lunak dapat menampilkan form request dari user konsumen
+Perangakt lunak dapat menerima dan menyetujui request
+Perangakat lunak dapat menyimpanan record request users
+Perangakat lunak dapat dapat menampilkan dan menjalakan menu Work in progress
+Perangkat lunak dapat menampilkan unggahan file dari user(artis) pada menu Work in progress
+Perangakat lunak dapat menerima inputan dari user(artis) pada menu Work in progress
+Perangakat lunak dapat mencatat inputan dari user(artis) pada menu Work in progress
+Perangakat lunak dapat subuah menu untuk menggambarkan sketsa dari barang yang akan di pesan
 
-Kebutuhan Non-Fungsional
+3.2.2. Kebutuhan Non-Fungsional
 
-	Sistem harus terkoneksi dengan internet
-	Sistem harus dapat diakses menggunakan perangkat mobile
-	System dapat dijalankansi seluruh web browser
-	System menggunakan tampilan web responsive
-	Sistem harus tersedia 24 jam
-	Memiliki tampilan yang sederhana dan mudah untuk difahami
-	Pengamanan system menggunakan fitur TLS dan SSL
-	System dapat menjaga privasi informasi user (artis dan konsumen)
- Proses transaksi terjamin dengan keamanan yang stabil dan baik
+Sistem harus terkoneksi dengan internet
+Sistem harus dapat diakses menggunakan perangkat mobile
+System dapat dijalankansi seluruh web browser
+System menggunakan tampilan web responsive
+Sistem harus tersedia 24 jam
+Memiliki tampilan yang sederhana dan mudah untuk difahami
+Pengamanan system menggunakan fitur TLS dan SSL
+System dapat menjaga privasi informasi user (artis dan konsumen)
+ Proses transaksi terjamin dengan keamanan yang stabil dan baik
 
